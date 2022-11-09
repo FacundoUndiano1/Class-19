@@ -1,7 +1,8 @@
+
 const express = require('express');
 const app = express();
 const path = require('path');
-const mainRouter = require('./routers/mainRouter')
+const mainRouter = require('./routers/mainRouter');
 
 let PORT = process.env.PORT || 3030;
 app.listen(PORT, (req, res) => {
@@ -10,4 +11,4 @@ app.listen(PORT, (req, res) => {
 
 app.use(express.static(path.resolve(__dirname, './public')));
 
-app.use('/', mainRouter)
+app.use('/', mainRouter);
