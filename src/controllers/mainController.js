@@ -1,4 +1,5 @@
 
+//Controller contains business logic and execution
 const path = require('path');
 
 const mainRouter = {
@@ -38,4 +39,4 @@ const mainRouter = {
   }
 }
 
-module.exports = mainRouter;
+module.exports = mainRouter; //We must export each controller file

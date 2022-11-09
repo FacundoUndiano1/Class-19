@@ -11,4 +11,4 @@ app.listen(PORT, (req, res) => {
 
 app.use(express.static(path.resolve(__dirname, './public')));
 
-app.use('/', mainRouter);
+app.use('/', mainRouter); //All routes starting with / are going to be answered by mainRouter
