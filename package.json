@@ -1,7 +1,6 @@
 {
   "name": "clase19",
   "version": "1.0.0",
-  "description": "",
   "main": "nodemon.js",
   "scripts": {
     "start": "nodemon src/app.js"
@@ -10,8 +9,18 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "ejs": "^3.1.8",
     "express": "^4.18.2",
     "js": "^0.1.0",
     "nodemon": "^2.0.20"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FacundoUndiano1/Clase-19-Practice.git"
+  },
+  "bugs": {
+    "url": "https://github.com/FacundoUndiano1/Clase-19-Practice/issues"
+  },
+  "homepage": "https://github.com/FacundoUndiano1/Clase-19-Practice#readme",
+  "description": ""
 }
